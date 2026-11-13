@@ -19,7 +19,7 @@ mkdir -p build/gen build/classes build/dex
     -I "$AJAR" \
     --java build/gen \
     --min-sdk-version 26 --target-sdk-version 34 \
-    --version-code 1 --version-name 1.0 \
+    --version-code 2 --version-name 1.1 \
     build/compiled_res.zip
 
 find src build/gen -name "*.java" > build/sources.txt
